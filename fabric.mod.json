@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "trexboss",
+  "version": "${version}",
+  "name": "T-Rex Boss",
+  "description": "Tyrannosaurus boss (HP 1500 / ATK 60)",
+  "environment": "*",
+  "accessWidener": "trexboss.accesswidener",
+  "entrypoints": {
+    "main": ["com.example.trexboss.TRexBossMod"],
+    "client": ["com.example.trexboss.client.TRexBossClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "geckolib": "*"
+  }
+}
